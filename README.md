@@ -16,13 +16,13 @@ kann individuelle Übungspläne erstellen, zuweisen und bearbeiten, Pläne für 
 
 
 **Die Patient:innen**
-können ihren persönlichen täglichen Übungsplan mit Kurzanweisungen (und bestenfalls KI-Avatar-Bildern) einsehen und diesen Plan step-by-step abarbeiten. Zudem soll es für sie möglich sein, Feedback zu geben.
+können ihren persönlichen täglichen Übungsplan mit Kurzanweisungen einsehen und diesen Plan step-by-step abarbeiten. Zudem soll es für sie möglich sein, Feedback zu geben.
 
 ---
 
 ## Technische Details
 
 * **Frontend:** (Responsive) Web-Application (Desktop und bestenfalls Mobilgeräte) - HTML, CSS, JS
-* **Backend:** Relationale SQL-Datenbank via Supabase mit logischer Verknüpfung von Benutzerrollen, Übungskatalog, Übungsplänen (und Feedbacks) - PostgreSQL
+* **Backend:** Relationale SQL-Datenbank via Supabase mit logischer Verknüpfung von Benutzerrollen, Übungskatalog, Übungsplänen und Feedbacks - PostgreSQL
 
 ---
