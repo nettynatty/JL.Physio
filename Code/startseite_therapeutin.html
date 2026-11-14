@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JL Physio – Startseite (Therapeutin)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="startseite_therapeutin.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <a href="#" class="brand">
+        <img src="logo.png" alt="JL Physio Logo" class="brand-logo-img" />
+      </a>
+
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        <input type="search" placeholder="Suche..." aria-label="Suche" />
+      </div>
+    </div>
+
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="active">Home</a>
+        <a href="#patientinnen">Patient:innen</a>
+        <a href="#uebungskatalog">Übungskatalog</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-welcome">
+    <div class="hero-inner">
+      <h2>Willkommen, Jasmin!</h2>
+      <p>Womit möchtest du heute durchstarten?</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="practice-overview-section" aria-labelledby="praxis-ueberblick-heading">
+      <div class="section-header-styled">
+        <div>
+          <span class="section-kicker">Aktuelle Statistik</span>
+          <h2 id="praxis-ueberblick-heading" class="section-title">Praxis-Überblick</h2>
+        </div>
+        <div class="section-line"></div>
+        <span class="section-meta">Heute aktualisiert</span>
+      </div>
+
+      <div class="overview-grid">
+        <a href="#patientinnen" class="overview-card">
+          <div class="overview-info">
+            <span class="overview-number">5</span>
+            <span class="overview-label">Aktive Patient:innen</span>
+            <span class="overview-sub">Alle Pläne aktuell</span>
+          </div>
+          <div class="overview-arrow">
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </div>
+        </a>
+
+        <a href="#uebungskatalog" class="overview-card">
+          <div class="overview-info">
+            <span class="overview-number">5</span>
+            <span class="overview-label">Übungen im Katalog</span>
+            <span class="overview-sub">Katalog verwalten</span>
+          </div>
+          <div class="overview-arrow">
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="quick-access-section" aria-labelledby="schnellzugriff-heading">
+      <div class="section-header-styled">
+        <div>
+          <span class="section-kicker">Direkt losstarten</span>
+          <h2 id="schnellzugriff-heading" class="section-title">Schnellzugriff</h2>
+        </div>
+        <div class="section-line"></div>
+        <span class="section-meta">4 Tools</span>
+      </div>
+
+      <div class="quick-access-grid">
+        <a href="#neue-uebung" class="quick-card">
+          <div class="quick-card-icon">
+            <i class="fa-solid fa-dumbbell" aria-hidden="true"></i>
+          </div>
+          <h3>Neue Übung</h3>
+          <p>Führe eine Erweiterung des bestehenden Übungskatalogs durch</p>
+        </a>
+
+        <a href="#plan-erstellen" class="quick-card">
+          <div class="quick-card-icon">
+            <i class="fa-solid fa-clipboard-list" aria-hidden="true"></i>
+          </div>
+          <h3>Plan erstellen</h3>
+          <p>Füge einen neuen Übungsplan für registrierte Patient:innen hinzu</p>
+        </a>
+
+        <a href="#pdf-erstellen" class="quick-card">
+          <div class="quick-card-icon">
+            <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+          </div>
+          <h3>PDF erstellen</h3>
+          <p>Erstelle einen Übungsplan für nicht-registrierte Patient:innen</p>
+        </a>
+
+        <a href="#neue-patientin" class="quick-card">
+          <div class="quick-card-icon">
+            <i class="fa-solid fa-user-plus" aria-hidden="true"></i>
+          </div>
+          <h3>Neue:r Patient:in</h3>
+          <p>Füge einen Zugang für eine:n neue:n Patient:in hinzu</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+        <span>JL Physio – Ihr digitaler Übungsbegleiter &bull; by Jasmin Lacher, BSc.</span>
+        <span class="footer-credit-right">
+        Konzeption, Design & Entwicklung by Natalie Marie Neumayer
+        </span>
+    </div>
+  </footer>
+
+</body>
+</html>
