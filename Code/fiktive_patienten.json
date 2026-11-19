@@ -1,0 +1,247 @@
+[
+  {
+    "id": "pat-1",
+    "vorname": "Mark",
+    "nachname": "Tischler",
+    "geburtsdatum": "20.03.1989",
+    "email": "m.tischler@gmx.at",
+    "uebungsplan": [
+      {
+        "uebungId": "uebung-1",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "-",
+        "hilfsmittel": "Schräger Stepper",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-2",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "2 kg",
+        "hilfsmittel": "Stepper",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-3",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "2 kg",
+        "hilfsmittel": "Schräger Stepper",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-4",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "1 kg",
+        "hilfsmittel": "Schräger Stepper",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-5",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "-",
+        "hilfsmittel": "Schräger Stepper",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      }
+    ]
+  },
+  {
+    "id": "pat-2",
+    "vorname": "Franz",
+    "nachname": "Bauer",
+    "geburtsdatum": "14.08.1965",
+    "email": "f.bauer@mail.at",
+    "uebungsplan": [
+      {
+        "uebungId": "uebung-6",
+        "saetze": 3,
+        "wiederholungen": 12,
+        "gewicht": "-",
+        "hilfsmittel": "Stuhl, Theraband",
+        "pause": "45 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-7",
+        "saetze": 2,
+        "wiederholungen": 15,
+        "gewicht": "-",
+        "hilfsmittel": "Drehscheibe, stabiler Sessel",
+        "pause": "45 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-8",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "4 kg",
+        "hilfsmittel": "Schräger Stepper, Kettlebell",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      },
+      {
+      "uebungId": "uebung-9",
+        "saetze": 2,
+        "wiederholungen": 12,
+        "gewicht": "-",
+        "hilfsmittel": "-",
+        "pause": "45 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-10",
+        "saetze": 3,
+        "wiederholungen": 8,
+        "gewicht": "-",
+        "hilfsmittel": "Stuhl",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-11",
+        "saetze": 3,
+        "wiederholungen": 12,
+        "gewicht": "-",
+        "hilfsmittel": "-",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      }
+    ]
+  },
+  {
+    "id": "pat-3",
+    "vorname": "Tanja",
+    "nachname": "Fischer",
+    "geburtsdatum": "03.11.1988",
+    "email": "tanja.fischer@mail.at",
+    "uebungsplan": [
+      {
+        "uebungId": "uebung-9",
+        "saetze": 2,
+        "wiederholungen": 12,
+        "gewicht": "-",
+        "hilfsmittel": "-",
+        "pause": "45 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-10",
+        "saetze": 3,
+        "wiederholungen": 8,
+        "gewicht": "-",
+        "hilfsmittel": "Stuhl",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-11",
+        "saetze": 3,
+        "wiederholungen": 12,
+        "gewicht": "-",
+        "hilfsmittel": "-",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      }
+    ]
+  },
+  {
+    "id": "pat-4",
+    "vorname": "Barbara",
+    "nachname": "Kübler",
+    "geburtsdatum": "28.05.1979",
+    "email": "b.kuebler@mail.at",
+    "uebungsplan": [
+      {
+        "uebungId": "uebung-12",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "-",
+        "hilfsmittel": "Ball",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-13",
+        "saetze": 2,
+        "wiederholungen": 10,
+        "gewicht": "-",
+        "hilfsmittel": "Halb aufgeblasener Ball",
+        "pause": "45 s",
+        "haeufigkeit": "Jeden Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-14",
+        "saetze": 3,
+        "wiederholungen": 12,
+        "gewicht": "-",
+        "hilfsmittel": "-",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      }
+    ]
+  },
+  {
+    "id": "pat-5",
+    "vorname": "Kurt",
+    "nachname": "Saaler",
+    "geburtsdatum": "11.01.1962",
+    "email": "k.saaler@mail.at",
+    "uebungsplan": [
+      {
+        "uebungId": "uebung-8",
+        "saetze": 3,
+        "wiederholungen": 12,
+        "gewicht": "-",
+        "hilfsmittel": "Schräger Stepper",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-11",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "-",
+        "hilfsmittel": "-",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      },
+      {
+        "uebungId": "uebung-14",
+        "saetze": 3,
+        "wiederholungen": 10,
+        "gewicht": "1 kg",
+        "hilfsmittel": "-",
+        "pause": "60 s",
+        "haeufigkeit": "Jeden 2. Tag",
+        "erledigtHeute": false
+      }
+    ]
+  }
+]

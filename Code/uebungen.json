@@ -1,0 +1,441 @@
+[
+  {
+    "id": "uebung-1",
+    "name": "Calf Raise",
+    "uebergeordneteRegion": "Untere Extremität",
+    "genaueRegion": "SPG",
+    "tags": ["Untere Extremität", "SPG"],
+    "bildStart": "assets/images/calf-raise-start.png",
+    "bildAusfuehrung": "assets/images/calf-raise-ausfuehrung.png",
+    "startposition": [
+      "Auf den schrägen Stepper stellen.",
+      "Am unteren Ende stehen, Zehen zeigen nach oben."
+    ],
+    "ausfuehrung": [
+      "Beidbeinig nach oben auf die Zehenspitzen drücken.",
+      "Knie dabei gestreckt halten.",
+      "Anschließend kontrolliert wieder absenken."
+    ],
+    "zuBeachten": [
+      "Ferse senkrecht halten.",
+      "Nicht nach außen in eine O-Stellung ausweichen.",
+      "Den verfügbaren Bewegungsumfang nutzen."
+    ],
+    "gutZuWissen": []
+  },
+  {
+    "id": "uebung-2",
+    "name": "Soleus Raise",
+    "uebergeordneteRegion": "Untere Extremität",
+    "genaueRegion": "SPG",
+    "tags": ["Untere Extremität", "SPG"],
+    "bildStart": "assets/images/soleus-raise-start.png",
+    "bildAusfuehrung": "assets/images/soleus-raise-ausfuehrung.png",
+    "startposition": [
+      "Auf den schrägen Stepper stellen.",
+      "Am unteren Ende stehen, Zehen zeigen nach oben.",
+      "Knie leicht beugen."
+    ],
+    "ausfuehrung": [
+      "Beidbeinig auf die Zehenspitzen drücken und wieder absenken.",
+      "Knie bleiben gebeugt."
+    ],
+    "zuBeachten": [
+      "Ferse möglichst senkrecht halten.",
+      "Nicht nach außen ausweichen.",
+      "Den verfügbaren Bewegungsumfang nutzen."
+    ],
+    "gutZuWissen": []
+  },
+  {
+    "id": "uebung-3",
+    "name": "Vorfuß heben",
+    "uebergeordneteRegion": "Untere Extremität",
+    "genaueRegion": "SPG",
+    "tags": ["Untere Extremität", "SPG"],
+    "bildStart": "assets/images/vorfuss-heben-start.png",
+    "bildAusfuehrung": "assets/images/vorfuss-heben-ausfuehrung.png",
+    "startposition": [
+      "Auf dem schrägen Stepper am unteren Ende stehen.",
+      "Zehen zeigen nach unten."
+    ],
+    "ausfuehrung": [
+      "Vorfuß und Zehen nach oben ziehen.",
+      "Anschließend langsam zurück in die Ausgangsstellung."
+    ],
+    "zuBeachten": [
+      "Den Vorfuß aktiv anheben."
+    ],
+    "gutZuWissen": []
+  },
+  {
+    "id": "uebung-4",
+    "name": "Schritt imitieren",
+    "uebergeordneteRegion": "Untere Extremität",
+    "genaueRegion": "SPG",
+    "tags": ["Untere Extremität", "SPG"],
+    "bildStart": "assets/images/schritt-imitieren-start.png",
+    "bildAusfuehrung": "assets/images/schritt-imitieren-ausfuehrung.png",
+    "startposition": [
+      "Versetzt etwa 45 Grad auf dem schrägen Stepper stehen.",
+      "Zehen zeigen nach unten.",
+      "Der betroffene Fuß steht unten."
+    ],
+    "ausfuehrung": [
+      "Eine Schrittbewegung nachahmen: vom hinteren zum vorderen Fuß wechseln.",
+      "Dabei bewusst über den Außenrand des Fußes absteigen."
+    ],
+    "zuBeachten": [
+      "Ferse senkrecht aufgerichtet lassen."
+    ],
+    "gutZuWissen": []
+  },
+  {
+    "id": "uebung-5",
+    "name": "Schneller Stopp",
+    "uebergeordneteRegion": "Untere Extremität",
+    "genaueRegion": "SPG",
+    "tags": ["Untere Extremität", "SPG"],
+    "bildStart": "assets/images/schneller-stopp-start.png",
+    "bildAusfuehrung": "assets/images/schneller-stopp-ausfuehrung.png",
+    "startposition": [
+      "Auf dem schrägen Stepper am unteren Ende stehen.",
+      "Zehen zeigen nach unten."
+    ],
+    "ausfuehrung": [
+      "Den vorderen Fuß schnell auf den Stepper aufsetzen und anschließend in die Ausgangsstellung zurückwechseln."
+    ],
+    "zuBeachten": [
+      "Zwischen Abrollen und Fußheben deutlich wechseln.",
+      "Das Aufsetzen aktiv kontrollieren."
+    ],
+    "gutZuWissen": []
+  },
+  {
+    "id": "uebung-6",
+    "name": "Fußverschraubung",
+    "uebergeordneteRegion": "Untere Extremität",
+    "genaueRegion": "Fuß",
+    "tags": ["Untere Extremität", "Fuß"],
+    "bildStart": "assets/images/fussverschraubung-start.png",
+    "bildAusfuehrung": "assets/images/fussverschraubung-ausfuehrung.png",
+    "startposition": [
+      "Setze dich auf einen Stuhl und stelle deinen Fuß flach auf den Boden.",
+      "Lege ein Theraband unter den Großzehenballen und umwickle deinen Vorfuß damit ein-zweimal.",
+      "Halte das Theraband mit der Hand fest, um einen Widerstand zu erzeugen und lege deinen Unterarm auf deinem Oberschenkel zur Stütze ab."
+    ],
+    "ausfuehrung": [
+      "Richte deine Ferse mittig auf und drücke den Großzehenballen aktiv Richtung Boden.",
+      "Erzeuge dadurch eine Fußverschraubung, indem du den Vorfuß stabilisierst und das Fußgewölbe aktivierst.",
+      "Halte die Spannung kurz und löse sie anschließend kontrolliert."
+    ],
+    "zuBeachten": [
+      "Halte die Bewegung kontrolliert und vermeide ein Verkrampfen der Zehen.",
+      "Achte darauf, dass der Großzehenballen aktiv Richtung Boden drückt, während die Ferse mittig aufrecht bleibt.",
+      "Führe die Bewegung ohne Ausweichbewegungen des Knies aus."
+    ],
+    "gutZuWissen": [
+      "Die Fußverschraubung trainiert die stabilisierende Fußmuskulatur und unterstützt den Aufbau des Fußgewölbes.",
+      "Sie fördert die aktive Stabilität des Fußes und kann zur Verbesserung der Fußkontrolle beitragen."
+    ]
+  },
+  {
+    "id": "uebung-7",
+    "name": "Rotation-Mobilisation",
+    "uebergeordneteRegion": "Untere Extremität",
+    "genaueRegion": "KG",
+    "tags": ["Untere Extremität", "KG"],
+    "bildStart": "assets/images/rotation-mobilisation-start.png",
+    "bildAusfuehrung": "assets/images/rotation-mobilisation-ausfuehrung.png",
+    "startposition": [
+      "Setze dich auf einen stabilen Sessel.",
+      "Stelle deinen Fuß komplett auf eine Drehscheibe oder ein gleitfähiges Tuch.",
+      "Positioniere deine Ferse mittig auf der Drehscheibe. Dadurch entstehen kaum Scherkräfte.",
+      "Dein Kniegelenk befindet sich gebeugt über deinem Sprunggelenk."
+    ],
+    "ausfuehrung": [
+      "Drehe deinen Fuß langsam nach außen.",
+      "Drehe deinen Fuß anschließend langsam nach innen.",
+      "Führe die Bewegung kontrolliert in beide Richtungen aus.",
+      "Wiederhole die Bewegung mehrmals."
+    ],
+    "zuBeachten": [
+      "Lass die Bewegung kontrolliert aus dem Unterschenkel und Fuß entstehen.",
+      "Vermeide ruckartige Drehbewegungen.",
+      "Bewege den Fuß nur so weit, wie es angenehm und kontrollierbar ist."
+    ],
+    "gutZuWissen": [
+      "Die Drehbewegung nach außen aktiviert vor allem den äußeren hinteren Oberschenkelmuskel (Biceps femoris).",
+      "Die Drehbewegung nach innen aktiviert vor allem die inneren hinteren Oberschenkelmuskeln (Semitendinosus und Semimembranosus).",
+      "Durch die kontrollierte Rotationsbewegung entsteht im Wechsel eine Kompression und Traktion im Meniskus.",
+      "Die Übung verbindet die Aktivierung der hinteren Oberschenkelmuskulatur mit einer kontrollierten Rotationsbewegung des Kniegelenks."
+    ]
+  },
+  {
+    "id": "uebung-8",
+    "name": "Beckenheben (Abduktoren)",
+    "uebergeordneteRegion": "Untere Extremität",
+    "genaueRegion": "HG",
+    "tags": ["Untere Extremität", "HG"],
+    "bildStart": "assets/images/beckenheben-abduktoren-start.png",
+    "bildAusfuehrung": "assets/images/beckenheben-abduktoren-ausfuehrung.png",
+    "startposition": [
+      "Stelle dich mit dem betroffenen Bein auf das obere Ende eines schräg gestellten Steppers.",
+      "Die Zehenspitzen zeigen nach unten.",
+      "Falls vorhanden, befestige eine Kettlebell als Zusatzgewicht am Fuß des Spielbeins.",
+      "Halte dich bei Bedarf fest, um dein Gleichgewicht zu sichern."
+    ],
+    "ausfuehrung": [
+      "Hebe das Becken auf der Seite des Spielbeins aktiv nach oben.",
+      "Senke das Becken anschließend langsam und kontrolliert wieder ab.",
+      "Wiederhole die Bewegung abwechselnd, sodass du das Bein gefühlt länger und wieder kürzer machst."
+    ],
+    "zuBeachten": [
+      "Achte darauf, dass dein Standbein stabil bleibt.",
+      "Halte deinen Oberkörper möglichst ruhig und vermeide Ausweichbewegungen.",
+      "Führe die Bewegung gezielt aus dem Becken aus und vermeide ruckartige Bewegungen."
+    ],
+    "gutZuWissen": [
+      "Die Übung trainiert die Ansteuerung der Hüftabduktoren, insbesondere des Gluteus medius.",
+      "Du verbesserst die seitliche Beckenstabilität und die Kontrolle des Standbeins."
+    ]
+  },
+  {
+    "id": "uebung-9",
+    "name": "Beckenkippung (Rückenlage)",
+    "uebergeordneteRegion": "Becken",
+    "genaueRegion": "Becken",
+    "tags": ["Becken"],
+    "bildStart": "assets/images/beckenkippung-start.png",
+    "bildAusfuehrung": "assets/images/beckenkippung-ausfuehrung.png",
+    "startposition": [
+      "Lege dich auf den Rücken und stelle beide Beine hüftbreit auf.",
+      "Lege deine Hände auf das Becken, um die Bewegung bewusst zu spüren und bei Bedarf sanft zu unterstützen.",
+      "Finde eine bequeme Ausgangsposition, in der dein Becken und dein unterer Rücken entspannt aufliegen."
+    ],
+    "ausfuehrung": [
+      "Rolle dein Becken langsam und fließend Wirbel für Wirbel in die Beugung und anschließend in Streckung ab.",
+      "Stelle dir vor, wie du deine Wirbelsäule ausgehend vom Steißbein Wirbel für Wirbel Richtung Boden abrollst und anschließend wieder aufrichtest.",
+      "Nutze deine Hände, um die Bewegung des Beckens bewusst wahrzunehmen und sanft zu unterstützen."
+    ],
+    "zuBeachten": [
+      "Führe die Bewegung bewusst, langsam und ohne Schwung aus.",
+      "Atme ruhig und gleichmäßig weiter."
+    ],
+    "gutZuWissen": [
+      "Die Übung fördert die Beweglichkeit der Lendenwirbelsäule und die bewusste Kontrolle des Beckens.",
+      "Sie unterstützt das Körpergefühl und die gezielte Ansteuerung der Core-Muskulatur."
+    ]
+  },
+  {
+    "id": "uebung-10",
+    "name": "Der Lift",
+    "uebergeordneteRegion": "Becken",
+    "genaueRegion": "Beckenboden",
+    "tags": ["Becken", "Beckenboden"],
+    "bildStart": "assets/images/der-lift-start.png",
+    "bildAusfuehrung": "assets/images/der-lift-ausfuehrung.png",
+    "startposition": [
+      "Setze dich aufrecht auf einen Stuhl oder lege dich entspannt auf den Rücken.",
+      "Atme ruhig und gleichmäßig und entspanne Bauch, Gesäß und Oberschenkel.",
+      "Stelle dir deinen Beckenboden wie einen Lift mit drei Stockwerken vor."
+    ],
+    "ausfuehrung": [
+      "Erdgeschoss: Spanne deinen Beckenboden sanft an und stelle dir vor, wie der Lift langsam nach oben fährt.",
+      "1. Stock: Halte die Spannung leicht und kontrolliert.",
+      "2. Stock: Ziehe den Beckenboden etwas weiter nach innen und oben.",
+      "3. Stock: Hebe den Beckenboden so weit an, wie es dir angenehm möglich ist, ohne die Luft anzuhalten.",
+      "Fahre anschließend langsam Stockwerk für Stockwerk wieder nach unten, bis du den Beckenboden vollständig entspannst."
+    ],
+    "zuBeachten": [
+      "Atme während der gesamten Übung ruhig und gleichmäßig weiter.",
+      "Spanne Bauch, Gesäß und Oberschenkelmuskulatur nicht an.",
+      "Vermeide Pressen."
+    ],
+    "gutZuWissen": [
+      "Die Übung fördert die bewusste Wahrnehmung und die gezielte Ansteuerung der Beckenbodenmuskulatur.",
+      "Durch das stufenweise Anspannen und Entspannen lernst du, die Muskelspannung besser zu dosieren und zu kontrollieren."
+    ]
+  },
+  {
+    "id": "uebung-11",
+    "name": "Brücke",
+    "uebergeordneteRegion": "Wirbelsäule",
+    "genaueRegion": "LWS",
+    "tags": ["Wirbelsäule", "LWS"],
+    "bildStart": "assets/images/bruecke-start.png",
+    "bildAusfuehrung": "assets/images/bruecke-ausfuehrung.png",
+    "startposition": [
+      "Lege dich auf den Rücken und stelle beide Beine hüftbreit auf.",
+      "Lege deine Arme entspannt neben dem Körper ab.",
+      "Stelle die Füße flach auf den Boden und achte darauf, dass deine Knie nicht nach innen oder außen fallen."
+    ],
+    "ausfuehrung": [
+      "Spanne deine Core-Muskulatur sanft an.",
+      "Beginne dein Becken zu beugen und hebe dein Becken in die Streckung ab, bis Oberschenkel und Oberkörper in der Luft annähernd eine Linie bilden.",
+      "Halte die Position kurz und atme dabei ruhig weiter.",
+      "Senke dein Becken anschließend kontrolliert wieder ab."
+    ],
+    "zuBeachten": [
+      "Achte darauf, dass deine Knie hüftbreit bleiben und nicht nach innen oder außen fallen.",
+      "Vermeide ein übermäßiges Hohlkreuz und hebe das Becken nur so weit an, wie es angenehm möglich ist.",
+      "Führe die Bewegung langsam und ohne Schwung aus.",
+      "Verteile dein Gewicht gleichmäßig auf beide Füße."
+    ],
+    "gutZuWissen": [
+      "Die Brücke kräftigt die Gesäßmuskulatur und die hintere Muskelkette.",
+      "Sie unterstützt die Stabilität des Beckens und der Lendenwirbelsäule.",
+      "Die Übung fördert die Rumpfstabilität und verbessert die Hüft- und Beckenbewegung."
+    ]
+  },
+  {
+    "id": "uebung-12",
+    "name": "BWS-Mobilisation",
+    "uebergeordneteRegion": "Wirbelsäule",
+    "genaueRegion": "BWS",
+    "tags": ["Wirbelsäule", "BWS"],
+    "bildStart": "assets/images/bws-mobilisation-start.png",
+    "bildAusfuehrung": "assets/images/bws-mobilisation-ausfuehrung.png",
+    "startposition": [
+      "Lege dich auf den Rücken und platziere einen Ball unter deiner Brustwirbelsäule (BWS), auf Höhe eines Wirbels.",
+      "Stelle deine Beine hüftbreit auf und halte das Becken leicht gebeugt sowie den Rumpf angespannt.",
+      "Verschränke deine Hände locker hinter dem Kopf im Bereich der Halswirbelsäule (HWS) und halte die Ellbogen geschlossen.",
+      "Achte darauf, dass dein Kopf und deine Halswirbelsäule gut stabilisiert sind."
+    ],
+    "ausfuehrung": [
+      "Einatmung: Lege deinen Oberkörper langsam über den Ball nach hinten und öffne dabei die Ellbogen. Lass deine Brustwirbelsäule sanft in die Streckung (Extension) gehen.",
+      "Ausatmung: Rolle deinen Oberkörper kontrolliert wieder nach vorne in die Beugung (Flexion) auf.",
+      "Führe die Bewegung fließend und bewusst aus und wiederhole sie bei Bedarf auf verschiedenen Höhen der Brustwirbelsäule."
+    ],
+    "zuBeachten": [
+      "Ziehe dich beim Aufrichten nicht mit den Armen nach oben, sondern führe die Bewegung aktiv über deine Wirbelsäule aus.",
+      "Stabilisiere deine Halswirbelsäule während der gesamten Bewegung und vermeide ein Überstrecken des Kopfes.",
+      "Halte die Rumpfspannung aufrecht und führe die Bewegung langsam und kontrolliert aus.",
+      "Bewege dich nur so weit in die Streckung, wie es angenehm möglich ist."
+    ],
+    "gutZuWissen": [
+      "Die Übung fördert die Beweglichkeit der Brustwirbelsäule, insbesondere in der Streckung (Extension).",
+      "Sie kann helfen, eine aufrechte Körperhaltung zu unterstützen und die Beweglichkeit des oberen Rückens zu verbessern."
+    ]
+  },
+  {
+    "id": "uebung-13",
+    "name": "HWS-Mobilisierung",
+    "uebergeordneteRegion": "Wirbelsäule",
+    "genaueRegion": "HWS",
+    "tags": ["Wirbelsäule", "HWS"],
+    "bildStart": "assets/images/hws-mobilisierung-start.png",
+    "bildAusfuehrung": "assets/images/hws-mobilisierung-ausfuehrung.png",
+    "startposition": [
+      "Lege dich auf den Rücken und lege deinen Kopf auf einem halb aufgeblasenen Ball ab.", "Dein Kopf befindet sich in einer entspannten und neutralen Position."
+    ],
+    "ausfuehrung": [
+      "Bewege dein Kinn langsam Richtung Brustbein (Beugung).",
+      "Führe deinen Kopf anschließend kontrolliert zurück in die Ausgangsposition und bewege ihn sanft in die Streckung."
+    ],
+    "zuBeachten": [
+      "Führe die Bewegung langsam und in einem angenehmen Bewegungsumfang aus.",
+      "Vermeide ruckartige Bewegungen und ein starkes Überstrecken des Kopfes."
+    ],
+    "gutZuWissen": [
+      "Die Übung fördert die Beweglichkeit der Halswirbelsäule in Beugung und Streckung."
+    ]
+  },
+  {
+    "id": "uebung-14",
+    "name": "Schulter A-Übung",
+    "uebergeordneteRegion": "Obere Extremität",
+    "genaueRegion": "Schulterregion",
+    "tags": ["Obere Extremität", "Schulterregion"],
+    "bildStart": "assets/images/schulter-auebung-start.png",
+    "bildAusfuehrung": "assets/images/schulter-auebung-ausfuehrung.png",
+    "startposition": [
+      "Lege dich auf den Bauch oder beuge im Stand den Oberkörper nach vorne.",
+      "Lass die Arme seitlich neben dem Körper nach unten hängen."
+    ],
+    "ausfuehrung": [
+      "Hebe die gestreckten Arme schräg nach hinten an, sodass sie mit dem Körper eine A-Position bilden.",
+      "Senke die Arme kontrolliert wieder ab."
+    ],
+    "zuBeachten": [
+      "Ziehe die Schulterblätter leicht nach hinten, unten und außen während der Ausführung.",
+      "Spanne während der Ausführung deinen Rumpf an und vermeide eine Überstreckung in deiner Lendenwirbelsäule."
+    ],
+    "gutZuWissen": []
+  },
+  {
+    "id": "uebung-15",
+    "name": "Ellbogenbeugung und -streckung",
+    "uebergeordneteRegion": "Obere Extremität",
+    "genaueRegion": "Ellbogengelenk",
+    "tags": ["Obere Extremität", "Ellbogengelenk"],
+    "bildStart": "assets/images/ellbogen-bs-start.png",
+    "bildAusfuehrung": "assets/images/ellbogen-bs-ausfuehrung.png",
+    "startposition": [
+      "Setze dich aufrecht hin oder stelle dich bequem hin.",
+      "Richte dich im Schultergürtel auf."
+    ],
+    "ausfuehrung": [
+      "Beuge den Ellbogen langsam und führe die Hand in Richtung Schulter.",
+      "Strecke den Arm anschließend wieder langsam aus."
+    ],
+    "zuBeachten": [
+      "Halte den Oberarm nahe am Körper.",
+      "Führe die Bewegung langsam und ohne Schwung aus.",
+      "Bewege den Ellbogen nur so weit, wie es angenehm ist."
+    ],
+    "gutZuWissen": [
+      "Die Übung fördert die Beweglichkeit des Ellbogens.",
+      "Bei der Ausführung mit Gewicht wird vor allem der Bizeps beim Beugen und der Trizeps beim Strecken des Ellbogens gekräftigt."
+    ]
+  },
+  {
+    "id": "uebung-16",
+    "name": "Wrist Curls",
+    "uebergeordneteRegion": "Obere Extremität",
+    "genaueRegion": "Handgelenk",
+    "tags": ["Obere Extremität", "Handgelenk"],
+    "bildStart": "assets/images/wristcurls-start.png",
+    "bildAusfuehrung": "assets/images/wristcurls-ausfuehrung.png",
+    "startposition": [
+      "Setze dich aufrecht hin und lege deinen Unterarm auf einem Tisch oder deinem Oberschenkel ab.",
+      "Halte eine Hantel in der Hand, sodass dein Handgelenk frei beweglich ist."
+    ],
+    "ausfuehrung": [
+      "Bewege deine Hand langsam nach oben (Streckung) und anschließend nach unten (Beugung).",
+      "Führe die Bewegung kontrolliert und ohne Schwung aus."
+    ],
+    "zuBeachten": [
+      "Halte deinen Unterarm während der gesamten Bewegung ruhig.",
+      "Die Bewegung findet nur im Handgelenk statt."
+    ],
+    "gutZuWissen": [
+      "Die Übung kräftigt die Unterarmmuskulatur und fördert die Beweglichkeit des Handgelenks in Beugung und Streckung."
+    ]
+  },
+  {
+    "id": "uebung-17",
+    "name": "Daumen und kleinen Finger berühren",
+    "uebergeordneteRegion": "Obere Extremität",
+    "genaueRegion": "Finger",
+    "tags": ["Obere Extremität", "Finger"],
+    "bildStart": "assets/images/daumen-klfinger-start.png",
+    "bildAusfuehrung": "assets/images/daumen-klfinger-ausfuehrung.png",
+    "startposition": [
+      "Nimm eine bequeme Sitzposition ein.",
+      "Halte die Hand locker vor dir, die Finger sind leicht gestreckt."
+    ],
+    "ausfuehrung": [
+      "Führe den Daumen langsam zum kleinen Finger, bis sich die Fingerspitzen berühren.",
+      "Löse den Kontakt wieder und strecke die Finger locker aus."
+    ],
+    "zuBeachten": [
+      "Führe die Bewegung langsam und kontrolliert aus.",
+      "Bewege die Finger möglichst gezielt, ohne die ganze Hand stark mitzubewegen.",
+      "Vermeide verkrampftes Drücken."
+    ],
+    "gutZuWissen": [
+      "Die Übung fördert die Fingerkoordination und die Beweglichkeit der Hand."
+    ]
+  }
+]
