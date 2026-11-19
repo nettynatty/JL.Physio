@@ -1,3 +1,9 @@
+## Navigation im Repo
+- **Design & Konzeption:** Dieser Ordner enthält alle Designelemente, wie etwa Prototyp & Branding Board.
+- **Testing**: Dieser Ordner enthält alles zum Testing, wie etwa die Fragebögen und die Auswertungen dieser.
+- **Rechtliches & Organisatorisches**: Dieser Ordner enthält alle rechtlichen und organisatorischen Elemente, wie etwa Verträge und Zeitpläne und Infos zum Datenschutz und den technischen Strukturen der externen Dienstleister.
+
+
 # JL Physio
 Design Studio WS2026 - Projekt von Natalie Neumayer
 
