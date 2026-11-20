@@ -99,12 +99,24 @@ function startTraining() {
 
 function startTrainingAt(index) {
   currentIndex = index;
+
+  // Workaround für Bug - nach oben springen
+  window.scrollTo(0, 0);
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+
+  // Workaround für Bug - Ansicht umschalten
   const heroBanner = document.getElementById('hero-banner');
   if (heroBanner) heroBanner.style.display = 'none';
   document.getElementById('overview-view').style.display = 'none';
-  document.getElementById('training-view').style.display = 'block';
+
+  const trainingView = document.getElementById('training-view');
+  trainingView.style.display = 'block';
   renderCurrentExercise();
-  window.scrollTo({ top: 0, behavior: 'instant' });
+
+  // Workaround für Bug - Smoothe Einblendung
+  switchToTop(trainingView);
+  setTimeout(() => window.scrollTo(0, 0), 20);
 }
 
 // Aktuelle Übung im Trainingsmodus
