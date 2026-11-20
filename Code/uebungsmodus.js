@@ -99,24 +99,15 @@ function startTraining() {
 
 function startTrainingAt(index) {
   currentIndex = index;
-
-  // Workaround für Bug - nach oben springen
-  window.scrollTo(0, 0);
-  document.documentElement.scrollTop = 0;
-  document.body.scrollTop = 0;
-
-  // Workaround für Bug - Ansicht umschalten
   const heroBanner = document.getElementById('hero-banner');
   if (heroBanner) heroBanner.style.display = 'none';
   document.getElementById('overview-view').style.display = 'none';
-
-  const trainingView = document.getElementById('training-view');
-  trainingView.style.display = 'block';
+  document.getElementById('training-view').style.display = 'block';
   renderCurrentExercise();
 
-  // Workaround für Bug - Smoothe Einblendung
-  switchToTop(trainingView);
-  setTimeout(() => window.scrollTo(0, 0), 20);
+  // Direkt zum Start der Trainingsansicht springen (umgeht das sticky-Header-Problem)
+  document.querySelector('main').scrollIntoView({ behavior: 'instant', block: 'start' });
+  window.scrollTo(0, 0);
 }
 
 // Aktuelle Übung im Trainingsmodus
@@ -156,6 +147,8 @@ function setExerciseImage(imgId, src, altText) {
   if (!imgEl) return;
 
   if (src) {
+    imgEl.style.visibility = 'hidden';
+    imgEl.onload = () => { imgEl.style.visibility = 'visible'; };
     imgEl.src = src;
     imgEl.alt = altText;
     imgEl.parentElement.style.display = 'flex';
