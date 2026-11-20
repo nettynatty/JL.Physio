@@ -1,7 +1,7 @@
 let mergedPlan = [];
 let currentIndex = 0;
 
-// Hilfsfunktion - Datum Heute"
+// Hilfsfunktion - Datum Heute
 function getTodayKey() {
   const now = new Date();
   const year = now.getFullYear();
@@ -104,6 +104,7 @@ function startTrainingAt(index) {
   document.getElementById('overview-view').style.display = 'none';
   document.getElementById('training-view').style.display = 'block';
   renderCurrentExercise();
+  window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
 // Aktuelle Übung im Trainingsmodus
@@ -171,11 +172,11 @@ setExerciseImage('ex-image-exec', ex.bildAusfuehrung, `${ex.name} – Ausführun
   }
 
   // Fortschrittleiste
-  const doneCount = mergedPlan.filter(u => u.erledigtHeute).length;
-  document.getElementById('progress-text').textContent = `${doneCount} von ${total} Übungen geschafft`;
+  const currentStep = currentIndex + 1;
+  document.getElementById('progress-text').textContent = `Übung ${currentStep} von ${total}`;
   const progressBar = document.getElementById('progress-bar');
   progressBar.max = total;
-  progressBar.value = doneCount;
+  progressBar.value = currentStep;
 
   // Button-Steuerung
   const prevBtn = document.getElementById('prev-exercise-btn');
@@ -208,7 +209,7 @@ function handlePrevExercise() {
   if (currentIndex > 0) {
     currentIndex--;
     renderCurrentExercise();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }
 }
 
@@ -220,7 +221,7 @@ function handleNextExercise() {
   if (currentIndex < mergedPlan.length - 1) {
     currentIndex++;
     renderCurrentExercise();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
   } else {
     exitTraining();
   }
@@ -236,6 +237,7 @@ function exitTraining() {
   if (heroBanner) heroBanner.style.display = 'flex';
   document.getElementById('overview-view').style.display = 'block';
   renderOverview();
+  window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
 function saveProgress() {

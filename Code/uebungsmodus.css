@@ -636,11 +636,17 @@ h3 {
 }
 
 progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   width: 140px;
-  height: 6px;
+  height: 10px;
+  border: none;
+  background-color: var(--border-light);
   border-radius: 999px;
   overflow: hidden;
-  appearance: none;
+  display: block;
+  margin-top: 5px;
 }
 
 progress::-webkit-progress-bar {
@@ -649,6 +655,12 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
+  background-color: var(--primary-sage);
+  border-radius: 999px;
+  transition: width 0.25s ease;
+}
+
+progress::-moz-progress-bar {
   background-color: var(--primary-sage);
   border-radius: 999px;
 }
