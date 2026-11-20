@@ -209,7 +209,7 @@ function handlePrevExercise() {
   if (currentIndex > 0) {
     currentIndex--;
     renderCurrentExercise();
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
 
@@ -221,7 +221,7 @@ function handleNextExercise() {
   if (currentIndex < mergedPlan.length - 1) {
     currentIndex++;
     renderCurrentExercise();
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   } else {
     exitTraining();
   }
