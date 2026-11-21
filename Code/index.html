@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JL Physio – Dein digitaler Übungsbegleiter</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="uebungsmodus.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JL Physio – Mein Tagesplan</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="patientenansicht.css" />
 </head>
 <body>
 
   <header>
     <div class="header-top">
-      <a href="#" class="brand" id="logo-home-link">
+      <a href="index.html" class="brand">
         <img src="logo.png" alt="JL Physio Logo" class="brand-logo-img" />
       </a>
     </div>
@@ -19,172 +19,56 @@
 
   <section class="hero-welcome" id="hero-banner">
     <div class="hero-inner">
-      <h2>Willkommen, Test-Patient:in!</h2>
+      <h2>Willkommen zurück!</h2>
       <p>Schön, dass du da bist – dein heutiger Übungsplan steht schon bereit.</p>
     </div>
   </section>
 
   <main>
+    <section id="overview-view">
+      <div class="section-header-styled">
+        <div>
+          <span class="section-kicker">ÜBERSICHT</span>
+          <h1 class="section-title">Dein Tagesplan</h1>
+        </div>
+        <div class="section-line"></div>
+      </div>
 
-    <div id="overview-view">
-      <section class="card status-card">
+      <div class="card status-card">
         <div class="status-card-content">
-          <span class="section-kicker">DEIN TAGESPLAN</span>
-          <h2 id="open-exercises-text">Lade Plan...</h2>
-          <p id="status-subtext" class="muted-text"></p>
-          <button id="start-training-btn" class="btn btn-primary">
-            <span>TRAINING STARTEN</span>
-            <i class="fa-solid fa-arrow-right"></i>
+          <h3 id="open-exercises-text">Lade deinen Trainingsplan ...</h3>
+          <p class="muted-text" id="status-subtext">Einen kleinen Moment bitte.</p>
+          <button type="button" class="btn btn-primary" id="start-training-btn">
+            <span>TRAINING STARTEN</span> <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
         <div class="status-card-icon" aria-hidden="true">
-          <i class="fa-solid fa-person-running"></i>
+          <i class="fa-solid fa-dumbbell"></i>
         </div>
-      </section>
+      </div>
 
-      <section class="overview-list-section">
+      <div class="overview-list-section">
         <div class="section-header-styled">
           <div>
-            <span class="section-kicker">ÜBERSICHT</span>
-            <h2 class="section-title">Deine Übungen auf einen Blick</h2>
+            <span class="section-kicker">AUF EINEN BLICK</span>
+            <h2 class="section-title">Deine Übungen</h2>
           </div>
           <div class="section-line"></div>
         </div>
-        <ul id="exercise-overview-list" class="overview-list"></ul>
-      </section>
-    </div>
-
-    <section id="training-view" style="display: none; padding-top: 36px;">
-      
-      <div class="training-top-bar">
-        <details class="accordion-box guidelines-accordion">
-          <summary>
-            <span class="summary-left">
-              <span class="info-circle"><i class="fa-solid fa-info"></i></span>
-              Bitte beachte die allgemeinen Trainingsrichtlinien!
-            </span>
-            <i class="fa-solid fa-chevron-down chevron"></i>
-          </summary>
-          <div class="accordion-content">
-            <ul>
-              <li><strong>Schmerzadaptiert trainieren:</strong> Führe die Übungen in einem gut tolerierbaren Schmerzbereich aus. Der Schmerz sollte während der Übung auf einer Skala von 0 bis 10 idealerweise nicht über 3–4 liegen. Bei zunehmenden oder stechenden Schmerzen reduziere die Belastung oder unterbrich die Übung.</li>
-              <li><strong>Sauber vor häufig:</strong> Die korrekte Ausführung ist wichtiger als viele Wiederholungen.</li>
-              <li><strong>Langsam und kontrolliert:</strong> Führe die Bewegungen ohne Schwung oder ruckartige Bewegungen aus.</li>
-              <li><strong>Belastung anpassen:</strong> Berücksichtige deine Tagesform. Nicht jeder Tag ist gleich.</li>
-              <li><strong>Pausen einlegen:</strong> Wenn du die Übung nicht mehr sauber ausführen kannst, pausiere und korrigiere deine Position.</li>
-              <li><strong>Auf Beschwerden achten:</strong> Beobachte, wie dein Körper während und nach dem Training reagiert. Bei deutlich zunehmenden Schmerzen oder Schwellungen reduziere die Belastung und gib mir bitte Bescheid.</li>
-              <li><strong>Feedback geben:</strong> Teile mir gerne mit, was sich bei den Übungen gut angefühlt hat und was schwierig war. So kann ich dein Trainingsprogramm optimal an dich anpassen.</li>
-            </ul>
-          </div>
-        </details>
-
-        <button id="exit-training-btn" class="btn btn-exit">
-          <i class="fa-solid fa-xmark"></i>
-          <span>TRAINING BEENDEN</span>
-        </button>
+        <ul class="overview-list" id="exercise-overview-list"></ul>
       </div>
-
-      <div class="exercise-header">
-        <span id="step-indicator" class="section-kicker">ÜBUNG 1/5</span>
-        <h1 id="ex-title">Übungsname</h1>
-        <div id="ex-dosage-badges" class="dosage-badges"></div>
-      </div>
-
-      <div class="exercise-content">
-        
-        <article class="card instruction-card">
-            <div class="instruction-text">
-                <h3>Startposition</h3>
-                <ul id="ex-start-list" class="clean-list"></ul>
-            </div>
-            <div class="instruction-media">
-                <img id="ex-image-start" src="" alt="Startposition">
-                <button type="button" class="zoom-btn" data-target="ex-image-start" aria-label="Bild vergrößern" title="Bild vergrößern">
-                <i class="fa-solid fa-magnifying-glass-plus"></i>
-                </button>
-            </div>
-        </article>
-
-        <article class="card instruction-card">
-            <div class="instruction-text">
-                <h3>Ausführung</h3>
-                <ul id="ex-exec-list" class="clean-list"></ul>
-            </div>
-            <div class="instruction-media">
-                <img id="ex-image-exec" src="" alt="Ausführung">
-                <button type="button" class="zoom-btn" data-target="ex-image-exec" aria-label="Bild vergrößern" title="Bild vergrößern">
-                <i class="fa-solid fa-magnifying-glass-plus"></i>
-                </button>
-            </div>
-        </article>
-
-        <article class="card caution-card">
-          <div class="caution-header">
-            <span class="caution-icon"><i class="fa-solid fa-exclamation"></i></span>
-            <h3>Darauf musst du achten</h3>
-          </div>
-          <ul id="ex-cues-list" class="clean-list"></ul>
-        </article>
-
-        <details id="ex-info-box" class="accordion-box info-accordion" style="display: none;">
-          <summary>
-            <span class="summary-left">
-              <span class="bulb-icon"><i class="fa-regular fa-lightbulb"></i></span>
-              Gut zu wissen
-            </span>
-            <i class="fa-solid fa-chevron-down chevron"></i>
-          </summary>
-          <div class="accordion-content">
-            <ul id="ex-info-list" class="clean-list"></ul>
-          </div>
-        </details>
-
-      </div>
-
-      <div class="training-footer">
-        <div class="footer-left">
-          <button id="prev-exercise-btn" class="btn btn-prev">
-            <i class="fa-solid fa-arrow-left"></i>
-            <span>VORHERIGE ÜBUNG</span>
-          </button>
-        </div>
-        
-        <div class="progress-wrapper">
-          <span class="progress-label">Fortschritt</span>
-          <span id="progress-text" class="progress-count">0 von 5 Übungen geschafft</span>
-          <progress id="progress-bar" value="0" max="5"></progress>
-        </div>
-
-        <div class="footer-right">
-          <button id="next-exercise-btn" class="btn btn-primary">
-            <span>NÄCHSTE ÜBUNG</span>
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>
-      </div>
-
     </section>
   </main>
 
-  <div id="image-lightbox" class="lightbox" aria-hidden="true">
-    <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption">
-        <button type="button" id="lightbox-close" class="lightbox-close" aria-label="Schließen">
-            <i class="fa-solid fa-xmark"></i>
-        </button>
-        <img id="lightbox-img" src="" alt="">
-        <p id="lightbox-caption" class="lightbox-caption"></p>
-    </div>
-  </div>
-
   <footer>
     <div class="footer-inner">
-      <span>JL Physio – Ihr digitaler Übungsbegleiter &bull; by Jasmin Lacher, BSc.</span>
-      <span class="footer-credit-right">
+        <span>JL Physio – Ihr digitaler Übungsbegleiter &bull; by Jasmin Lacher, BSc.</span>
+        <span class="footer-credit-right">
         Konzeption, Design & Entwicklung by Natalie Marie Neumayer
-      </span>
+        </span>
     </div>
   </footer>
 
-  <script src="uebungsmodus.js"></script>
+  <script src="startseite_patienten.js"></script>
 </body>
 </html>
